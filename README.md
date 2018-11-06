@@ -10,6 +10,6 @@ The repo contains all the material needed for the XML Lab Session of the course 
 # Useful tools
 
 * Any kind of text editor (Sublime or Atom suggested)
-* XML XSD's validator: [freeformatter.com/xml-validator-xsd.html]
-* XPath test tool: [freeformatter.com/xpath-tester.html]
-* XQuery test tool: [www.xpathtester.com/xquery]
+* XML XSD's validator: [XSD schema validator](www.freeformatter.com/xml-validator-xsd.html)
+* XPath test tool: [XPath](www.freeformatter.com/xpath-tester.html)
+* XQuery test tool: [XQuery](www.xpathtester.com/xquery)
