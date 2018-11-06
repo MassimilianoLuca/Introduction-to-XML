@@ -1,0 +1,11 @@
+<meal>
+	<person name="Alice"/>
+	<person name="Bob"/>
+	<person name="Carol"/>
+	<food name="salad"/>
+	<food name="salad"/>
+	<food name="sandwich"/>
+	<eats diner="Alice" dish="salad"/>
+	<eats diner="Bob" dish="salad"/>	
+	<eats diner="Carol" dish="sandwich"/>
+</meal>

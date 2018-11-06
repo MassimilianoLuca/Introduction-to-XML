@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="person">
+		<xs:complexType>
+			<xs:attribute type="xs:string" name="name" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="food">
+		<xs:complexType>
+			<xs:attribute type="xs:string" name="name" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="eats">
+		<xs:complexType>
+			<xs:attribute type="xs:string" name="diner" use="optional"/>
+			<xs:attribute type="xs:string" name="dish" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="meal">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="person" maxOccurs="unbounded" minOccurs="0"/>
+				<xs:element ref="food" maxOccurs="unbounded" minOccurs="0"/>
+				<xs:element ref="eats" maxOccurs="unbounded" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
