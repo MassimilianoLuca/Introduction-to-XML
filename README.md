@@ -1,3 +1,5 @@
+[![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](#)
+
 # Introduction-to-XML
 
 The repo contains all the material needed for the XML Lab Session of the course Introduction to Service and Design Engineering of the Master Course in Computer Science of the University of Trento.
